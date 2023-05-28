@@ -1,0 +1,8 @@
+01. project setup and git ignore
+    yarn add -D typescript
+    yarn add express
+    yarn add mongoose
+    tsc --init
+    set rootDir and outDir in tsconfig.json
+    create and set .gitignore with node_modules and .env
+02. Eslint and Prettier
