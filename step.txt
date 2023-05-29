@@ -5,4 +5,8 @@
     tsc --init
     set rootDir and outDir in tsconfig.json
     create and set .gitignore with node_modules and .env
+    yarn add -D @types/express
+    yarn add -D dotenv
+    yarn add cors
+    yarn add -D @types/cors
 02. Eslint and Prettier
