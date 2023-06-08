@@ -64,6 +64,41 @@
             "date": 1686128967513,
             "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-15-success.log",
             "hash": "2c453a6e4f416e4d980376476c0438f16b0f1136c10b3cb7eabcbc1b669611e4"
+        },
+        {
+            "date": 1686149613808,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-20-success.log",
+            "hash": "0f38430f2ce76b2401fdc5a452caaf095c83dfd10f5db9e6ec1b30012e40db24"
+        },
+        {
+            "date": 1686156796096,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-22-success.log",
+            "hash": "7cfbdd0a044fd6580f2761b3ac6b624f746c9f6ff56b56d2a5ff1e2f6e731a1d"
+        },
+        {
+            "date": 1686157208453,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-07-23-success.log",
+            "hash": "747430276c610c952be0ca684f14acfe5c5490f53bf0fd8ee3c0649eb6c1053e"
+        },
+        {
+            "date": 1686161550461,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-08-00-success.log",
+            "hash": "879fc4cd230592d8a882e21775a28ef28bf12676904208153f8aa4a22df79f85"
+        },
+        {
+            "date": 1686225415584,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-08-17-success.log",
+            "hash": "1b74037986026c39dd84e01237fe055d6900ddce788d73799d4a3fd090b4c5ff"
+        },
+        {
+            "date": 1686225696208,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-08-18-success.log",
+            "hash": "83c0bda3d1a9992e28d7ad97d82488c985f98ba137459eb98040305b735a413d"
+        },
+        {
+            "date": 1686229217028,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-06-08-19-success.log",
+            "hash": "9b41e61d3ae4565183635f9398210e077ca3609bcc442bb9052217df6f7ec0cf"
         }
     ],
     "hashType": "sha256"

@@ -64,6 +64,41 @@
             "date": 1686128967536,
             "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-07-15-error.log",
             "hash": "f180da0e38f39fd05c367821141f3b46df6247e867a167e9fd3257f4af632c00"
+        },
+        {
+            "date": 1686149613823,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-07-20-error.log",
+            "hash": "19ed58e7cfb519e7d2782203046eb6ad5804361aa5574251cc1f873acc021869"
+        },
+        {
+            "date": 1686156796127,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-07-22-error.log",
+            "hash": "945628994529c91a99267af7b014b5eca93a2044a569145b66b83bf5bca28580"
+        },
+        {
+            "date": 1686157208485,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-07-23-error.log",
+            "hash": "ef851ce97468838e28a2121ce6b2b509b723fef28b9ee0536737b5fa31d3f4ec"
+        },
+        {
+            "date": 1686161550469,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-08-00-error.log",
+            "hash": "3ef379bf9f0c44a91cc63400ba7ec07e7f39f7868ef7c65434fafefcf565ba06"
+        },
+        {
+            "date": 1686225415610,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-08-17-error.log",
+            "hash": "9b692f58c9da366adf8f8bf3547c17dfa48dda5e7c7c7553f160ae01988f7f7d"
+        },
+        {
+            "date": 1686225696216,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-08-18-error.log",
+            "hash": "32e30a75481d567ef64a73efd66aaa05197ca9e35d7a6bde23a7d21c8dd65862"
+        },
+        {
+            "date": 1686229217039,
+            "name": "D:\\Level-2\\university-management-auth-service\\logs\\winston\\errores\\phu-2023-06-08-19-error.log",
+            "hash": "b951cb76a6639a4220802cc13c0c441cd3c6643805bae37e0e6798b75cf9abea"
         }
     ],
     "hashType": "sha256"

@@ -1,0 +1,7 @@
+Wed Jun 07 2023:15:24:0 [PHU] error: Database connection failed connection 1 to 3.210.75.27:27017 closed
+Wed Jun 07 2023:15:25:49 [PHU] error: Database connection failed connect ETIMEDOUT 3.210.75.27:27017
+Wed Jun 07 2023:15:29:50 [PHU] error: listen EADDRINUSE: address already in use :::5000
+Wed Jun 07 2023:15:33:6 [PHU] error: listen EADDRINUSE: address already in use :::5000
+Wed Jun 07 2023:15:34:52 [PHU] error: listen EADDRINUSE: address already in use :::5000
+Wed Jun 07 2023:15:37:33 [PHU] error: listen EADDRINUSE: address already in use :::5000
+Wed Jun 07 2023:15:38:38 [PHU] error: listen EADDRINUSE: address already in use :::5000

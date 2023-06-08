@@ -1,0 +1,4 @@
+Thu Jun 08 2023:18:15:3 [PHU] error: Database connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.lszl0.mongodb.net
+Thu Jun 08 2023:18:15:10 [PHU] error: Database connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.lszl0.mongodb.net
+Thu Jun 08 2023:18:17:1 [PHU] error: Database connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.lszl0.mongodb.net
+Thu Jun 08 2023:18:17:38 [PHU] error: Database connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.lszl0.mongodb.net
