@@ -10,6 +10,7 @@ import {
   IAcademicSemisterFilters,
 } from './academicSemister.interface';
 import httpStatus from 'http-status';
+
 const createSemiter = async (
   payload: IAcademicSemister
 ): Promise<IAcademicSemister> => {
@@ -27,6 +28,34 @@ const getSingleSemister = async (
   id: string
 ): Promise<IAcademicSemister | null> => {
   const result = await AcademicSemister.findById(id);
+  return result;
+};
+
+// delete semister service
+const deleteSemister = async (
+  id: string
+): Promise<IAcademicSemister | null> => {
+  const result = await AcademicSemister.findByIdAndDelete(id);
+  return result;
+};
+
+// get single semister service
+const updateSemister = async (
+  id: string,
+  payload: Partial<IAcademicSemister>
+): Promise<IAcademicSemister | null> => {
+  // match title and code
+  if (
+    payload.title &&
+    payload.code &&
+    AcademicMesisterTitleCodeMapper[payload.title] !== payload.code
+  ) {
+    throw new ApiError(httpStatus.BAD_REQUEST, 'Wrong Semister Code');
+  }
+
+  const result = await AcademicSemister.findOneAndUpdate({ _id: id }, payload, {
+    new: true,
+  });
   return result;
 };
 
@@ -78,4 +107,6 @@ export const AcademicSemisterService = {
   createSemiter,
   getAllSemisters,
   getSingleSemister,
+  updateSemister,
+  deleteSemister,
 };
