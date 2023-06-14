@@ -14,15 +14,6 @@ app.use('/api/v1/', routes);
 
 // console.log(app.get('env'))
 
-// for testing
-// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-//   // throw new ApiError(400, 'ore baba re')
-//   // Promise.reject(new Error('unhandle promise'))
-//   // console.log(x)
-//   // throw new Error('testing error')
-//   // next('ore baba error')
-// });
-
 // global error handler
 app.use(globalErrorHandler);
 
@@ -40,5 +31,11 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   });
   next();
 });
+
+// const testId = async () => {
+//   const testId = await generateFacultyId();
+//   console.log(testId);
+// };
+// testId();
 
 export default app;

@@ -16,6 +16,9 @@ const academicFacultySchema = new Schema<IAcademicFaculty>(
   },
   {
     timestamps: true,
+    toJSON: {
+      virtuals: true,
+    },
   }
 );
 
@@ -34,6 +37,6 @@ academicFacultySchema.pre('save', async function (next) {
 });
 
 export const AcademicFaculty = model<IAcademicFaculty, IAcademicFacultyModel>(
-  'AcademicFacultyDB',
+  'AcademicFaculty',
   academicFacultySchema
 );
