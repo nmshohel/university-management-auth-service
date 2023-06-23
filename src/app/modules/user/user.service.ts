@@ -18,6 +18,7 @@ import { AcademicSemister } from '../academicSemister/academicSemister.Model';
 import { Student } from '../student/student.model';
 import { Admin } from '../admin/admin.model';
 import { IAdmin } from '../admin/admin.interface';
+// import bcrypt from 'bcrypt';
 
 const createStudent = async (
   student: IStudent,
@@ -27,6 +28,7 @@ const createStudent = async (
   if (!user.password) {
     user.password = config.default_student_pass as string;
   }
+
   //  set role
   user.role = 'student';
   const academicSemister = await AcademicSemister.findById(

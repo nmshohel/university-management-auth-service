@@ -45,6 +45,8 @@ const deleteFaculty = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
+  console.log(req.headers.authorization);
+  console.log('User=', req.user);
   const filters = pick(req.query, ['searchTerm']);
   const paginationOptions = pick(req.query, paginationFileds);
   const result = await AcademicFacultyService.getAllFaculties(
